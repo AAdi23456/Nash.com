@@ -1,0 +1,58 @@
+.container img{
+    margin-left: -50px;
+    }
+    .container p{
+       /* // margin-left: 10px; */
+       /* // border: 1px solid black; */
+        margin-top: 15px;
+        height: 40px;
+        width:20px;
+    
+    }
+    .container input{
+        margin-left: 120px;
+        height: 40px;
+    }
+    .cont p{
+    /* display: flex; */
+    padding:20px
+    }
+    #carouselExampleInterval{
+        margin-top: -35px;
+        background-color: rgb(58, 57, 57);
+        height: 80px;
+        color: white;
+        display: flex;
+        
+    }
+    .cont1{
+        text-align: center;
+    }
+    .cont1 h6{
+        margin-top: -10px;
+    }
+    .cont1 a{
+        margin-top: -30px;
+    }
+    .cont{
+        margin-top: -30px;
+        height: 100px;
+    }
+    .coontt{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 15px;
+        text-align:center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .coontt img{
+        width: 100%;
+    }
+    .coontt div:hover{
+        box-shadow: 1px -3px 20px -1px;
+     
+    }
+    .foot{
+        width: 100%;
+    }

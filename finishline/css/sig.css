@@ -1,0 +1,21 @@
+.sig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sig button{
+   
+    
+   border: none;
+   margin-top: 20px;
+}
+.logo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 40px;
+   border-top: 1px solid rgba(0, 0, 0, 0.352);
+}
+.logo h3:hover{
+   background-color: black;
+}
