@@ -13,10 +13,7 @@ margin-left: -50px;
     margin-left: 120px;
     height: 40px;
 }
-.cont p{
-/* display: flex; */
-padding:20px
-}
+
 #carouselExampleInterval{
     margin-top: -35px;
     background-color: rgb(58, 57, 57);
@@ -153,3 +150,12 @@ width: 100%;
     width: 95%;
     align-items: center;
 } */
+.cont a{
+    /* display: flex; */
+    padding:20px;
+    text-decoration: none;
+    color: black;
+    }
+    .cont a:hover{
+        color: blue;
+    }

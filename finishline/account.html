@@ -13,12 +13,12 @@
     </div>
 <div class="sig">
     <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">SIGN IN</h2>
-    <input placeholder="Email" type="email" style="height:40px; width: 350px;">
-    <input placeholder="Password" type="password" style="height:40px; width: 350px;margin-top:15px">
+    <input placeholder="Email" type="text" style="height:40px; width: 350px;" id="email">
+    <input placeholder="Password" type="password" style="height:40px; width: 350px;margin-top:15px" id="pass">
     <p>This site is protected by reCAPTCHA and the Google<br
         br> Privacy Policy and Terms of Service apply</p>
         <a style="text-decoration: underline;">forget your password?</a>
-        <button style="height:40px; width: 350px;background-color: aqua;">SIGN IN</button>
+        <button style="height:40px; width: 350px;background-color: aqua;" id="sigin">SIGN IN</button>
 </div>
 <div class="logo">
     <img style="width: 50px; margin-top: 20px;" src="https://account.finishline.com/static/media/STATUS_logo_black.3c28c69a.svg">
@@ -29,6 +29,19 @@
        br> points and check out faster.</p>
        <a href="" style="color:black;">Learn More</a>
        <h3> CREATE ACCOUNT</h3>
+       
 </div>
 </body>
 </html>
+<script>
+    let sigin=document.getElementById('sigin')
+    let email=document.getElementById("email")
+    let pass=document.getElementById('pass')
+   
+    let passs=123456
+    sigin.addEventListener('click',function(){
+       alert("welcome!")
+        }
+    )
+
+</script>

@@ -13,10 +13,15 @@
         margin-left: 120px;
         height: 40px;
     }
-    .cont p{
-    /* display: flex; */
-    padding:20px
-    }
+    .cont a{
+        /* display: flex; */
+        padding:20px;
+        text-decoration: none;
+        color: black;
+        }
+        .cont a:hover{
+            color: blue;
+        }
     #carouselExampleInterval{
         margin-top: -35px;
         background-color: rgb(58, 57, 57);
@@ -42,6 +47,7 @@
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,1fr);
+        gap: 10px;
     }
     .cont3{
         width: 95%;
