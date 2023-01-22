@@ -1348,7 +1348,7 @@
                 M 7.5 / W 9.0
             </button>
             <h3 style="font-size: 15px;margin-top: 15px;">Ship to an address</h3>
-            <button style="font-size: 40px;color: rgb(235, 235, 243);background-color: blue;width: 400px;margin-top: 100px;" id="shop">SHOP NOW</button>
+            <button style="font-size: 40px;color: rgb(235, 235, 243);background-color: blue;width: 400px;margin-top: 100px;" id="shop" onclick=" item () ">SHOP NOW</button>
             <div class="mmmmmp">
                 <img src="https://account.finishline.com/static/media/STATUS_logo_black.3c28c69a.svg"> 
             
@@ -1539,7 +1539,11 @@ function visted1(item){
     localStorage.setItem("visited",JSON.stringify(arr));
     // console.log(image)
  
+    
 }
+function item() {
+        alert('Item Added to the bag')
+    }
 
 </script>
 </html>
