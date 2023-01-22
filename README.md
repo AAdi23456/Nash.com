@@ -1,2 +1,4 @@
 # Nash.com
-Nash.com is a clone of FinishLine.com,it is an individual project given by massai on ending of unit 2.
+Nash.com is a clone site of Finishline.com which is created by the help of bootstrap.
+It is an individual project made at the last of unit 2 in masai school.
+It is my first project in coding using css,HTML,Javascript and bootstrap.
