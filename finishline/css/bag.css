@@ -1,7 +1,7 @@
 .container img{
     margin-left: -50px;
     }
-    .container p{
+    .container a{
        /* // margin-left: 10px; */
        /* // border: 1px solid black; */
         margin-top: 15px;
@@ -13,10 +13,15 @@
         margin-left: 120px;
         height: 40px;
     }
-    .cont p{
-    /* display: flex; */
-    padding:20px
-    }
+    .cont a{
+        /* display: flex; */
+        padding:20px;
+        text-decoration: none;
+        color: black;
+        }
+        .cont a:hover{
+            color: blue;
+        }
     #carouselExampleInterval{
         margin-top: -35px;
         background-color: rgb(58, 57, 57);
@@ -38,3 +43,18 @@
         margin-top: -30px;
         height: 100px;
     }
+#app{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 100px;
+    width: 95%;
+    margin-left: 40px;
+    
+}
+#app p{
+    font-size: 15px;
+}
+#app img{
+    width:200px;
+    height: 200px;
+}
